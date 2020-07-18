@@ -58,7 +58,10 @@ npx prisma init
 DATABASE_URL="postgresql://<user>:<password>@localhost:5432/<database>?schema=<schema>"
 ```
 
-
+0. show DB
+```
+npx prisma studio --experimental  
+```
 
 1. DB -> Code
 ```
